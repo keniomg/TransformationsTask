@@ -3,6 +3,7 @@ using UnityEngine;
 public class Upscaling : MonoBehaviour
 {
     [SerializeField] private float _upscalingSpeed;
+
     private Vector3 _upscalingDirection = new Vector3(1, 1, 1);
 
     private void Update()

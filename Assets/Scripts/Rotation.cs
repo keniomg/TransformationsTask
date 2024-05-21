@@ -3,6 +3,7 @@ using UnityEngine;
 public class Rotation : MonoBehaviour
 {
     [SerializeField] private float _rotationSpeed;
+
     private Vector3 _rotationAxis = Vector3.up;
 
     private void Update()
